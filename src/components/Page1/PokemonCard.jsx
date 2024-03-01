@@ -1,7 +1,7 @@
 import React from 'react';
-import '../App.css'
+import '/Users/niyazrizvanov/pock/src/App.css'
 import { Link } from 'react-router-dom';
-import ButtonAbilities from './ButtonAbilities';
+import ButtonAbilities from '../buttons/ButtonAbilities';
 const PokemonCard = (props) => {
     const name = props.card.name
     return (

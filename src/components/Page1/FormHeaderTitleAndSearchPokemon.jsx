@@ -1,8 +1,8 @@
 import React, { useMemo, useState } from 'react';
-import SearchInput from './inputs/SearchInput';
-import SearchButton from './buttons/SearchButton';
-import searchImage from '../headerImages/searchicon.png'
-import Pokeball from './Pokeball';
+import SearchInput from '../inputs/SearchInput';
+import SearchButton from '../buttons/SearchButton';
+import searchImage from '/Users/niyazrizvanov/pock/src/Images/searchicon.png'
+import Pokeball from '../Pokeball';
 const FormHeaderTitleAndSearchPokemon = ({action}) => {
 
     const [text, setText] = useState('')

@@ -1,8 +1,7 @@
-import { useEffect, useMemo, useState } from 'react';
 import './App.css'
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import MainPage from './components/Page1/MainPage';
-import PokemonInfoPage from './components/PokemonInfoPage';
+import PokemonInfoPage from './components/Page2/PokemonInfoPage';
 function App() {
   return (
     <BrowserRouter>
